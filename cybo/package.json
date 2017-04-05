@@ -1,0 +1,27 @@
+{
+  "name": "xtory.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build-all": "rollup -c && uglifyjs dist/cybo.js -cm > dist/cybo.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtory/xtory.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtory/xtory.github.io/issues"
+  },
+  "homepage": "https://github.com/xtory/xtory.github.io#readme",
+  "devDependencies": {
+    "rollup": "^0.41.6",
+    "uglify": "^0.1.5"
+  }
+}
